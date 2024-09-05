@@ -1,0 +1,27 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+textarea, input, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button {
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #6200ea;
+    transform: scale(1.05);
+}
+
+@keyframes fadeInUp {
+    from { transform: translateY(100%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 17</title>
+    <link rel="stylesheet" href="../CSS/desafio17.css">
+</head>
+<body class="dark-mode">
+    <button id="theme-toggle" class="theme-button">Alterar Tema</button>
+    <div class="container">
+        <h1>Correções no Relatório</h1>
+        <textarea id="sentence-input" placeholder="Insira a frase"></textarea>
+        <input type="text" id="word-input" placeholder="Palavra a ser inserida">
+        <input type="text" id="index-input" placeholder="Índices separados por vírgula">
+        <button onclick="insertWord()">Inserir Palavra</button>
+        <p id="corrected-sentence"></p>
+    </div>
+
+    <script src="../JS/relatorio-missao.js"></script>
+    <script src="../JS/themeToggle.js"></script>
+</body>
+</html>

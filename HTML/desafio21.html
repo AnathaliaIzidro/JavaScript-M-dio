@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 21</title>
+    <link rel="stylesheet" href="../CSS/desafio21.css">
+</head>
+<body class="dark-mode">
+    <button id="theme-toggle" class="theme-button">Alterar Tema</button>
+    <div class="container">
+        <h1>Sistema de Localização</h1>
+        <input type="number" id="x-input" placeholder="Coordenada X">
+        <input type="number" id="y-input" placeholder="Coordenada Y">
+        <input type="number" id="origin-x-input" placeholder="Origem X">
+        <input type="number" id="origin-y-input" placeholder="Origem Y">
+        <button onclick="calculateDistance()">Calcular Distância</button>
+        <p id="distance-result"></p>
+    </div>
+
+    <script src="../JS/sistema-localizacao.js"></script>
+    <script src="../JS/themeToggle.js"></script>
+</body>
+</html>

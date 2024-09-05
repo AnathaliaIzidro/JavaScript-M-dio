@@ -4,12 +4,6 @@
 - **CSS**: Para estilização e alternância entre temas claro e escuro.
 - **JavaScript**: Para implementar a lógica dos desafios e manipulação do DOM.
 
-## Estrutura de Pastas
-
-- `HTML/`: Contém os arquivos HTML para cada desafio.
-- `CSS/`: Contém os arquivos CSS para cada desafio.
-- `JS/`: Contém os arquivos JavaScript para cada desafio.
-
 ## Desafios
 
 **Desafio 15:** Tradução de números romanos.
@@ -28,8 +22,5 @@
 
 **Desafio 22:** Verificação de prisioneiros faltantes.
 
-## Troca de Tema
-
-Clique no botão no canto superior direito para alternar entre os modos claro e escuro.
 
 
